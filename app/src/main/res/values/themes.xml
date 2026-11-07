@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseLight" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="bg">#F1F2F6</item>
+        <item name="paper">#F1F2F6</item>
+        <item name="surface">#F8F9FB</item>
+        <item name="surface2">#E7E9EF</item>
+        <item name="ink">#1F2128</item>
+        <item name="textMain">#1F2128</item>
+        <item name="textSub">#8A8D99</item>
+        <item name="strokeC">#E6E8EE</item>
+        <item name="trackC">#E6E8EE</item>
+        <item name="rippleC">#1A2A2C45</item>
+        <item name="goodC">#23B07D</item>
+        <item name="badC">#F0607A</item>
+        <item name="onAccent">#FFFFFF</item>
+        <item name="accentInk">#FFFFFF</item>
+        <item name="android:colorAccent">?attr/accent</item>
+        <item name="android:colorPrimary">?attr/accent</item>
+        <item name="android:colorControlActivated">?attr/accent</item>
+        <item name="android:textColorPrimary">?attr/textMain</item>
+        <item name="android:textColorSecondary">?attr/textSub</item>
+        <item name="android:alertDialogTheme">@style/DlgLight</item>
+    </style>
+    <style name="DlgLight" parent="@android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorAccent">?attr/accent</item>
+        <item name="android:colorControlActivated">?attr/accent</item>
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:textColorPrimary">?attr/textMain</item>
+        <item name="android:textColorSecondary">?attr/textSub</item>
+        <item name="android:windowTitleStyle">@style/DlgTitle</item>
+        <item name="android:buttonBarButtonStyle">@style/DlgButton</item>
+    </style>
+    <style name="BaseDark" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="bg">#18191D</item>
+        <item name="paper">#18191D</item>
+        <item name="surface">#212328</item>
+        <item name="surface2">#1B1C21</item>
+        <item name="ink">#ECEDF1</item>
+        <item name="textMain">#ECEDF1</item>
+        <item name="textSub">#8E919C</item>
+        <item name="strokeC">#2C2E35</item>
+        <item name="trackC">#1B1C21</item>
+        <item name="rippleC">#26FFFFFF</item>
+        <item name="goodC">#5BE3A8</item>
+        <item name="badC">#FF8A9E</item>
+        <item name="onAccent">#FFFFFF</item>
+        <item name="accentInk">#FFFFFF</item>
+        <item name="android:colorAccent">?attr/accent</item>
+        <item name="android:colorPrimary">?attr/accent</item>
+        <item name="android:colorControlActivated">?attr/accent</item>
+        <item name="android:textColorPrimary">?attr/textMain</item>
+        <item name="android:textColorSecondary">?attr/textSub</item>
+        <item name="android:alertDialogTheme">@style/DlgDark</item>
+    </style>
+    <style name="DlgDark" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:colorAccent">?attr/accent</item>
+        <item name="android:colorControlActivated">?attr/accent</item>
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:textColorPrimary">?attr/textMain</item>
+        <item name="android:textColorSecondary">?attr/textSub</item>
+        <item name="android:windowTitleStyle">@style/DlgTitle</item>
+        <item name="android:buttonBarButtonStyle">@style/DlgButton</item>
+    </style>
+    <style name="AppLight_Blue" parent="BaseLight">
+        <item name="accent">#7C6CF0</item>
+        <item name="accent2">#B39DFF</item>
+        <item name="accentSoft">#E6E1FF</item>
+    </style>
+    <style name="AppDark_Blue" parent="BaseDark">
+        <item name="accent">#9D90FF</item>
+        <item name="accent2">#C6BAFF</item>
+        <item name="accentSoft">#3A3570</item>
+    </style>
+    <style name="AppLight_Teal" parent="BaseLight">
+        <item name="accent">#FF8A65</item>
+        <item name="accent2">#FFB199</item>
+        <item name="accentSoft">#FFE4DA</item>
+    </style>
+    <style name="AppDark_Teal" parent="BaseDark">
+        <item name="accent">#FFA184</item>
+        <item name="accent2">#FFC2AE</item>
+        <item name="accentSoft">#4B3029</item>
+    </style>
+    <style name="AppLight_Purple" parent="BaseLight">
+        <item name="accent">#2FBF8F</item>
+        <item name="accent2">#7EE0BE</item>
+        <item name="accentSoft">#D5F5E9</item>
+    </style>
+    <style name="AppDark_Purple" parent="BaseDark">
+        <item name="accent">#4FD8A8</item>
+        <item name="accent2">#8FEBCB</item>
+        <item name="accentSoft">#1F4638</item>
+    </style>
+    <style name="AppLight_Orange" parent="BaseLight">
+        <item name="accent">#4A9DF5</item>
+        <item name="accent2">#8CC4FF</item>
+        <item name="accentSoft">#DCEBFF</item>
+    </style>
+    <style name="AppDark_Orange" parent="BaseDark">
+        <item name="accent">#6DB3FF</item>
+        <item name="accent2">#A6D0FF</item>
+        <item name="accentSoft">#22395C</item>
+    </style>
+</resources>

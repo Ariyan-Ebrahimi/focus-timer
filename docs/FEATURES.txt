@@ -1,0 +1,200 @@
+FOCUS TIMER - App Overview and Features
+Version 7.3
+
+==================================================================
+ABOUT THE APP
+==================================================================
+Focus Timer is a calm, easy-to-use Android app for studying and
+focused work. It combines timers, Pomodoro, a stopwatch, alarms,
+projects with study hours, background sounds and detailed history
+in one place, with a soft "clay" design.
+
+- Light and dark theme, with 4 accent colors (purple, orange,
+  green, blue)
+- Available in 10 languages: English, Persian, Turkish, Arabic,
+  German, Spanish, Chinese, Korean, Portuguese and French
+  (right-to-left layout for Persian and Arabic)
+- A short welcome screen for new users explains the basics
+- Five tabs: Timers, Projects, Stopwatch, History, Settings
+
+
+==================================================================
+1. TIMERS
+==================================================================
+Three kinds of timers:
+- Timer: one countdown of any length
+- Pomodoro: focus / short break / long break, with rounds
+  (lengths and rounds can be customized)
+- Sequence: your own list of steps (work and rest), repeated for
+  a number of rounds
+
+Creating a timer (the New timer window):
+- One-tap lengths: 5, 10, 15, 25, 30, 45 min, 1 h, 1h 30m
+- Hour / minute / second wheels for any other length
+- New timers start at 25 minutes, ready to start
+- Optional name and project
+
+On the Timers screen:
+- Quick-start buttons for timers you used recently
+- Filter timers by project
+- Each timer card shows the time, a progress ring, its status and
+  when it ends
+- Start / Pause button and a +1 min button
+- Menu: Reset, Edit, Pin to top, Delete
+- Stopping a timer early still saves the time you studied
+- When the list is empty: "Start 25-min focus" and "New timer"
+  buttons
+- An alarm-clock button opens Alarms, and a chip shows the next
+  alarm ("07:30 - in 9h 12m")
+
+When a timer ends:
+- Full-screen "Time's up" screen, also over the lock screen
+- +1 min, Restart and Stop buttons
+- Add a note about what you studied
+- Your chosen alarm sound plays until stopped
+
+
+==================================================================
+2. ALARMS
+==================================================================
+Alarms page:
+- "Next alarm" card with an analog clock face, the time and how
+  long until it rings ("Tomorrow - in 9h 12m")
+- Quick alarm buttons: +10 min, +20 min, +30 min, +1 h
+- Your alarms as cards, sorted by time, showing the time, name,
+  ringing days, missions and an on/off switch
+
+Each alarm can be customized:
+- Time (hour and minute wheels, 12- or 24-hour like your phone)
+- Repeat: Once, Every day, Weekdays, Weekends, or any days
+- Label (name)
+- Snooze length: 5, 10 or 15 minutes
+- Rising volume: Off, 30 s or 60 s (starts soft and grows to
+  full volume)
+- Wake-up missions (see below)
+
+Wake-up missions (for people who find it hard to wake up):
+The alarm only turns off after the missions are finished. Choose
+one or more, each with its own settings:
+- Math: Easy / Medium / Hard, 1-5 problems
+- Shake: shake the phone 15 / 30 / 50 / 80 times
+- Memory: repeat a pattern of 4-7 tiles
+- Type: type a sentence exactly (you can write your own)
+- Catch the dot: tap a moving dot 10 / 20 / 30 times
+- Number order: tap 1 to 9, 16 or 25 in order
+- Walk: take 20 / 50 / 100 steps (phones with a step counter)
+Extra options:
+- Quiet while solving: the alarm stays silent while you work on
+  the mission, and rings again if you stop for 20 seconds
+- Try it: test your missions right away
+- With a mission there is no Stop button and Back does nothing;
+  Snooze still works
+
+Ringing:
+- Full-screen alarm over the lock screen, with Snooze and Stop
+  (or Start mission)
+- A one-time alarm switches itself off after ringing
+- Alarms stay set after a restart or an app update
+
+
+==================================================================
+3. STOPWATCH
+==================================================================
+- Watch-face dial: 60 ticks light up as the seconds pass, with an
+  inner ring for the minutes of the hour
+- Big time with smaller hundredths
+- Status chip: Ready / Running / Paused
+- Laps with live current-lap time
+- Laps list: lap number, length bar, fastest (green) and slowest
+  (red), best and average lap
+- Count the time toward a project
+- Finish saves runs of 1 minute or more to History
+- Hold Reset/Finish to clear a run without saving it
+
+
+==================================================================
+4. PROJECTS
+==================================================================
+- Make a project for each subject (for example Math), with its
+  own color
+- Study hours are counted per project
+- Project page: study stats, a 7-day chart, its timers and recent
+  sessions
+
+
+==================================================================
+5. HISTORY AND INSIGHTS
+==================================================================
+- Today's study time and your streak (days in a row)
+- Chart of your study time
+- Month calendar: each day colored by how much you studied, with
+  arrows to see other months and the month's total
+- Breakdown by project
+- All your sessions, with notes; add or edit sessions by hand
+- Notes and #tags on sessions, with tag chips
+- Focus score for each session (lower when you pause a lot or
+  stop early)
+- Insights such as your best time of day and longest streak
+- 14 achievements (badges) in your theme color
+- Weekly report every Sunday evening
+- Empty charts stay hidden until your first session
+
+
+==================================================================
+6. BACKGROUND SOUNDS AND MUSIC
+==================================================================
+Plays while you focus. 12 choices:
+- None
+- Rain, Thunderstorm, Wind, Fireplace
+- Ocean waves, Stream, Forest birds
+- Fan, Brown noise
+- Calm piano (nonstop playlist of 12 pieces, about 1 hour)
+- Calm guitar (nonstop playlist of 8 pieces)
+
+- Nature sounds loop seamlessly
+- Sounds fade in and out gently and continue where they stopped
+- Music after focus: keep the sound playing for a while after
+  focus ends, with a Stop button in the notification
+- All recordings are free to use; performers are credited in
+  Settings
+
+
+==================================================================
+7. FOCUS TOOLS
+==================================================================
+- Silence phone while focusing: turns on Do Not Disturb during
+  focus and restores it afterwards
+- Strict mode: a running focus session can't be paused, reset or
+  deleted (in the app, widget, tile or notification). Breaks are
+  still free. In an emergency, hold "Give up" for 3 seconds to
+  end the session; it won't count toward your hours.
+- Distraction shield: shows a reminder screen when you open a
+  distracting app during focus
+
+
+==================================================================
+8. NOTIFICATIONS, WIDGET AND QUICK TILE
+==================================================================
+- Live notification with a countdown, progress and buttons
+  (Pause, +1 min, Reset; Lap for the stopwatch)
+- Bigger lock-screen notification
+- Home-screen widget: today's time, streak and a Start / Pause /
+  Finish button. Each widget can be customized: which timer or
+  project, look, stats, quick-focus length, and stopwatch mode
+  when a project has no timer
+- Quick Settings tile to start or pause from the notification
+  shade
+
+
+==================================================================
+9. SETTINGS
+==================================================================
+- Appearance: theme, color, language, home-screen widget
+- Focus: silence phone, strict mode, background sound, music
+  after focus, distraction shield
+- Alarm sound for timers and alarms
+- Notification and alarm permissions
+- Weekly report
+- Export history as a CSV file
+- Backup and restore all your data to a file
+- Music credits and app version

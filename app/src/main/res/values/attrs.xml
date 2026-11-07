@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="accent" format="color" />
+    <attr name="accent2" format="color" />
+    <attr name="onAccent" format="color" />
+    <attr name="accentSoft" format="color" />
+    <attr name="accentInk" format="color" />
+    <attr name="bg" format="color" />
+    <attr name="surface" format="color" />
+    <attr name="surface2" format="color" />
+    <attr name="textMain" format="color" />
+    <attr name="textSub" format="color" />
+    <attr name="strokeC" format="color" />
+    <attr name="trackC" format="color" />
+    <attr name="rippleC" format="color" />
+    <attr name="goodC" format="color" />
+    <attr name="badC" format="color" />
+    <attr name="ink" format="color" />
+    <attr name="paper" format="color" />
+</resources>

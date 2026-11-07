@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home-screen widget: today's study time, the streak, what's running, one-tap start -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:orientation="vertical"
+    android:paddingStart="18dp"
+    android:paddingTop="14dp"
+    android:paddingEnd="18dp"
+    android:paddingBottom="14dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/wTodayLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/nunito"
+            android:fontVariationSettings="\'wght\'800"
+            android:maxLines="1"
+            android:text="@string/today"
+            android:textColor="#8A8D99"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/wStreak"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="end"
+            android:fontFamily="@font/nunito"
+            android:fontVariationSettings="\'wght\'800"
+            android:maxLines="1"
+            android:textColor="#8A8D99"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/wGear"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="-8dp"
+            android:contentDescription="@string/widget_title"
+            android:padding="7dp"
+            android:src="@drawable/ic_tab_tune" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/wToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito"
+        android:fontVariationSettings="\'wght\'900"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:text="0m"
+        android:textColor="#1F2128"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:id="@+id/wRunRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/wRunDot"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginEnd="7dp"
+            android:src="@drawable/widget_dot" />
+
+        <TextView
+            android:id="@+id/wRunName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:fontFamily="@font/nunito"
+            android:fontVariationSettings="\'wght\'700"
+            android:maxLines="1"
+            android:textColor="#8A8D99"
+            android:textSize="13sp" />
+
+        <Chronometer
+            android:id="@+id/wChrono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/nunito"
+            android:fontFeatureSettings="tnum"
+            android:fontVariationSettings="\'wght\'800"
+            android:textColor="#1F2128"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/wBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="6dp"
+        android:max="1000"
+        android:progress="0"
+        android:progressDrawable="@drawable/widget_bar" />
+
+    <TextView
+        android:id="@+id/wIdle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/nunito"
+        android:fontVariationSettings="\'wght\'700"
+        android:maxLines="1"
+        android:text="@string/w_idle"
+        android:textColor="#8A8D99"
+        android:textSize="13sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:minHeight="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/wBtn"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:background="@drawable/widget_btn"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp">
+
+            <ImageView
+                android:id="@+id/wBtnIcon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginEnd="6dp"
+                android:src="@drawable/ic_play" />
+
+            <TextView
+                android:id="@+id/wBtnText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/nunito"
+                android:fontVariationSettings="\'wght\'800"
+                android:maxLines="1"
+                android:text="@string/start"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/wFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/widget_btn2"
+            android:fontFamily="@font/nunito"
+            android:fontVariationSettings="\'wght\'800"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:text="@string/w_finish"
+            android:textColor="#1F2128"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

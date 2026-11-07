@@ -1,0 +1,11 @@
+# build output (build.ps1 recreates these)
+out/
+*.apk
+*.idsig
+
+# signing key, created by build.ps1 when missing
+*.keystore
+
+# rendered promo media (regenerate with promo/*.py)
+promo/*.mp4
+promo/*.wav
