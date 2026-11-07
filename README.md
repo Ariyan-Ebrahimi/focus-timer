@@ -2,8 +2,6 @@
 
 A calm Android app for studying and focused work: timers, Pomodoro, a stopwatch, alarms with wake-up missions, projects with study hours, background sounds and detailed history, in a soft "clay" design. Available in 10 languages, with light and dark themes.
 
-<img src="docs/screen.png" width="300" alt="Focus Timer screenshot">
-
 The full feature list is in [docs/FEATURES.txt](docs/FEATURES.txt).
 
 ## Build
@@ -28,7 +26,7 @@ Min SDK 26 (Android 8.0), target SDK 36.
 ```
 app/src/main/   AndroidManifest.xml, java/, res/ (layouts, 10 languages, sounds, music)
 build.ps1       build script
-docs/           screenshot and feature list
+docs/           feature list
 promo/          scripts that render the promo video and its music
 ```
 
